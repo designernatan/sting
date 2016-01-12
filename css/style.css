@@ -12,3 +12,14 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.ft-footer {
+		/*display: none;*/
+    background-color: #242448;
+    color: #fff;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    clear: both;
+    padding-top: 20px;
+}

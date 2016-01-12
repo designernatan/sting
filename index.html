@@ -39,22 +39,25 @@
   </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <br><br>
-      <h1 class="header center deep-orange-text">
-        Desenvolvimento Web com HTML5, CSS3 e JavaScript
-      </h1>
-      <div class="row center">
-        <h5 class="header col s12 light">
-          Entre na área aprendendo na prática conceitos e técnicas para dominar o desenvolvimento front end
-        </h5>
-      </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light deep-orange">
-          Ficou com dúvida?
-        </a>
-      </div>
-      <br><br>
-
+      <br><br> <!-- @todo -->
+      <div class="row">
+        <div class="col l6">
+          <h1 class="header deep-orange-text">
+            Desenvolvimento Web com HTML5, CSS3 e JavaScript
+          </h1>
+          <h2 class="header light flow-text">
+            Entre na área aprendendo na prática conceitos e técnicas para dominar o desenvolvimento front end
+          </h2>
+          <button class="btn-large waves-effect waves-light deep-orange">
+            Ficou com dúvida?
+          </button>
+        </div> <!-- fecha .col .l6 -->
+        <br><br><br> <!-- @todo -->
+        <div class="col l5 offset-l1">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/ts1sJM0Spog?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div> <!-- fecha .row -->
+      <br><br> <!-- @todo -->
     </div>
   </div>
 
@@ -66,37 +69,64 @@
       <div class="row">
         <div class="col s12 l6">
           <div class="icon-block">
-            <h2 class="center">
+            <h3>
               Vai aprender na prática
-            </h2>
-            <p class="light">
+            </h3>
+            <p>
               Como colocar o layout de um site para funcionar dentro do navegador e...
             </p>
-            <ul>
-              <li>HTML5 semântico e CSS3</li>
-              <li>Site mobile com design responsivo</li>
-              <li>Bootstrap, framework do Twitter</li>
-              <li>JavaScript e jQuery</li>
+            <ul class="collection">
+              <li class="collection-item">HTML5 semântico e CSS3</li>
+              <li class="collection-item">Site mobile com design responsivo</li>
+              <li class="collection-item">Bootstrap, framework do Twitter</li>
+              <li class="collection-item">JavaScript e jQuery</li>
             </ul>
           </div>
         </div>
 
-        <div class="col s12 l4">
+        <!-- <div class="col s12 l4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
+            <h3 class="center">User Experience Focused</h3>
+        
             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
-        </div>
+        </div> -->
 
         <div class="col s12 l4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+          <h2>Posts</h2>
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <i class="material-icons circle">folder</i>
+              <span class="title">
+                CSS menos sofrido com Sass
+              </span>
+              <p class="light">
+                por Natan Souza
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle green">insert_chart</i>
+              <span class="title">
+                Começando a organizar seu CSS
+              </span>
+              <p class="light">
+                por Marco Bruno
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+              <i class="material-icons circle red">play_arrow</i>
+              <span class="title">
+                Use os Rich Snippets para aumentar conversão nas buscas
+              </span>
+              <p class="light">
+                por Adriano Almeida
+              </p>
+              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -108,14 +138,103 @@
     </div>
   </div>
 
+  <!-- footer da caelum -->
+  <footer class="ft-footer" role="contentinfo">
+    <div class="big-container">
+      <nav>
+        <ul>
+          <li>
+            <a href="/cursos/" class="ft-grupo">Nossos cursos</a> 
+            <ul>
+              <li><a href="/cursos-java/#formacao-java">Formação Java</a></li>
+              <li><a href="/jornada-back-end/">Jornada Back-end</a></li>
+              <li><a href="/curso-java-web/">Curso Java Web</a></li>
+              <li><a href="/curso-persistencia-java-jpa-hibernate/">Curso Hibernate e JPA</a></li>
+              <li><a href="/curso-java-web-jsf-cdi/">Curso JSF</a></li>
+              <li><a href="/curso-android/">Curso Android</a></li>
+              <li><a href="/curso-ios-iphone-ipad/">Curso iPhone</a></li>
+              <li><a href="/curso-agile-scrum/">Curso Agile e Scrum</a></li>
+              <li><a href="/curso-html-css-javascript/">Curso Web Front-end</a></li>
+              <li><a href="/curso-php-mysql/">Curso PHP e MySQL</a></li>
+              <li><a href="/cursos-dotnet/">Formação .NET</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/empresa/quem-somos/" class="ft-grupo">Sobre a Caelum</a> 
+            <ul>
+              <li><a href="/contato/">Entre em contato</a></li>
+              <li><a href="/quem-somos/">Quem somos</a></li>
+              <li><a href="/instrutores/">Instrutores</a></li>
+              <li><a href="/cursos-in-company/">Cursos in-company</a></li>
+              <li><a href="/aula-imersiva/">Aulas imersivas</a></li>
+              <li><a href="/mapa-dos-cursos/">Mapa dos cursos</a></li>
+              <li><a href="/calendario/">Calendário</a></li>
+              <li><a href="/faq/">FAQ</a></li>
+              <li><a href="/trabalhe-aqui/">Trabalhe na Caelum</a></li>
+              <li><a href="http://www.alura.com.br/">Cursos online de tecnologia Alura</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/siga/" class="ft-grupo">Acompanhe</a> 
+            <ul>
+              <li><a href="/newsletter/">Newsletter</a></li>
+              <li><a href="http://blog.caelum.com.br/">Blog</a></li>
+              <li><a href="https://www.facebook.com/caelumbr" rel="nofollow">Facebook</a></li>
+              <li><a href="https://twitter.com/caelum" rel="nofollow">Twitter</a></li>
+              <li><a href="https://plus.google.com/101703359609429000755" rel="publisher">Google+</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="/apostilas/" class="ft-grupo">Comunidade</a> 
+            <ul>
+              <li><a href="/apostilas/">Apostilas abertas</a></li>
+              <li><a href="http://www.casadocodigo.com.br/">Editora Casa do Código</a></li>
+              <li><a href="http://www.guj.com.br/">GUJ</a></li>
+            </ul>
+            <br> <a href="/empresa/quem-somos/" class="ft-grupo">Parcerias</a> 
+            <ul>
+              <li><a href="http://www.galandra.com.br">Curso online de inglês Galandra</a></li>
+              <li><a href="https://www.musicdot.com.br">Curso online de canto, violão, teclado, guitarra e piano</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="ft-enderecos">
+      <div class="big-container">
+        <div class="ft-sp endereco">
+          <div class="cidade sp-base-unidade-sp">São Paulo</div>
+          <div class="rua"> <strong>Rua Vergueiro, 3185, 8º andar.</strong> Próximo ao Metrô Vila Mariana. </div>
+          <div class="tels"> <a href="tel:+551155712751" class="tel">(11) 5571-2751</a> ou <a href="tel:+551150833884" class="tel">5083-3884</a> </div>
+          <a href="/contato/?contato.unidade=SP" class="contato">Entre em contato</a> 
+        </div>
+        <div class="ft-rio endereco">
+          <div class="cidade sp-base-unidade-rio">Rio de Janeiro</div>
+          <div class="rua"> <strong>Rua do Ouvidor, 50, sala 201, Centro.</strong> Aulas também na Barra da Tijuca. </div>
+          <div class="tels"> <a href="tel:+552122204156" class="tel">(21) 2220-4156</a> ou <a href="tel:+552122970033" class="tel">2297-0033</a> </div>
+          <a href="/contato/?contato.unidade=RJ" class="contato">Entre em contato</a> 
+        </div>
+        <div class="ft-bsb endereco">
+          <div class="cidade sp-base-unidade-bsb">Brasília</div>
+          <div class="rua"> <strong>SCS Qd. 8 Bl. B-50, Sala 521.</strong> Ed. Venâncio 2000. </div>
+          <div class="tels"> <a href="tel:+556130394222" class="tel">(61) 3039-4222</a> </div>
+          <a href="/contato/?contato.unidade=DF" class="contato">Entre em contato</a> 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- @todo footer do template
+
   <footer class="page-footer grey lighten-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="grey-text darken-4">Company Bio</h5>
           <p class="grey-text">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+  
+  
         </div>
         <div class="col l3 s12">
           <h5 class="grey-text">Settings</h5>
@@ -142,7 +261,7 @@
       Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
-  </footer>
+  </footer> -->
 
 
   <!--  Scripts-->
